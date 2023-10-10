@@ -1,0 +1,12 @@
+I followed this tutorial:
+    Spring Boot Testcontainers - Integration Testing made easy!
+        https://www.youtube.com/watch?v=erp-7MCK5BU
+
+Just run the app, which will also start a PostgreSql DB  docker container...and you can then open the browser
+and navigate to http://localhost:8080/api/posts to see the posts from the DB
+
+The interesting part is the tests however..that use a container for the DB
+
+
+TODO on his git repo, there were more examples of tests...maybe they are explained in another video...if so i can also add them to
+my project
